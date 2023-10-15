@@ -1,0 +1,23 @@
+--cpu Cortex-M0+
+".\output\startup_py32f072xx.o"
+".\output\system_py32f072.o"
+".\output\main.o"
+".\output\py32f072_hal_msp.o"
+".\output\py32f072_it.o"
+".\output\usbd_cdc_if.o"
+".\output\py32f072xx_start_kit.o"
+".\output\py32f072_hal.o"
+".\output\py32f072_hal_dma.o"
+".\output\py32f072_hal_cortex.o"
+".\output\py32f072_hal_gpio.o"
+".\output\py32f072_hal_rcc.o"
+".\output\py32f072_hal_rcc_ex.o"
+".\output\py32f072_hal_pwr.o"
+".\output\py32f072_hal_uart.o"
+".\output\usbd_core.o"
+".\output\usb_dc_py32.o"
+".\output\usbd_cdc.o"
+--library_type=microlib --strict --scatter ".\Output\Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Output\Project.map" -o .\Output\Project.axf

@@ -1,0 +1,4 @@
+Dependencies for Project 'PY32F072xx', Target 'FLASH_OPT': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\FlashPrg.c)(0x6475A8B9)()
+F (.\FlashDev.c)(0x6475A8B9)()
